@@ -1,2 +1,1 @@
-# leet-rust
 # leetcode
