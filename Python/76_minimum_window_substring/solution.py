@@ -2,7 +2,7 @@ def min_window(s: str, t: str) -> str:
     from collections import Counter, defaultdict
 
     # If either string is empty, return an empty string
-    if not s or not t:
+    if not (s and t):
         return ""
 
     # Dictionary to keep the count of all characters in t
